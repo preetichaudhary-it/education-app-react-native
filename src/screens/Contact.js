@@ -31,7 +31,7 @@ const Contact = ({ navigation }) => {
         <Text style={styles.labels}> Enter your name </Text>
         <TextInput
           style={styles.inputStyle}
-          placeholder={"Preeti"}
+          placeholder={"Full Name"}
           value={name}
           onChangeText={(userdata) => setName(userdata)}
         />
